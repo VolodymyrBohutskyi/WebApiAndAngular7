@@ -1,0 +1,76 @@
+<form [formGroup]="form" (ngSubmit)="submitForm()">
+  <input type="hidden" formControlName="PMId">
+  <div class="form-group">
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <div class="input-group-text bg-white">
+          <i class="fas fa-user-circle"
+            [ngClass]="
+              {
+                'green-icon': form.controls['CardOwnerName'].valid,
+                'red-icon': form.controls['CardOwnerName'].invalid && form.controls['CardOwnerName'].touched
+              }
+              ">
+          </i>
+        </div>
+      </div>
+      <input formControlName="CardOwnerName" class="form-control" placeholder="Card Owner Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <div class="input-group-text bg-white">
+          <i class="far fa-credit-card"
+          [ngClass]="
+          {
+            'green-icon': form.controls['CardNumber'].valid,
+            'red-icon': form.controls['CardNumber'].invalid && form.controls['CardNumber'].touched
+          }
+          ">
+          </i>
+        </div>
+      </div>
+      <input formControlName="CardNumber" class="form-control" placeholder="16 Digit Card Number">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-7">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text bg-white">
+            <i class="fas fa-calendar-alt"
+            [ngClass]="
+            {
+              'green-icon': form.controls['ExpirationDate'].valid,
+              'red-icon': form.controls['ExpirationDate'].invalid && form.controls['ExpirationDate'].touched
+            }
+            ">
+            </i>
+          </div>
+        </div>
+        <input formControlName="ExpirationDate" class="form-control" placeholder="MM/YY">
+      </div>
+    </div>
+    <div class="form-group col-md-5">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text bg-white">
+            <i class="fas fa-key"
+            [ngClass]="
+            {
+              'green-icon': form.controls['CVV'].valid,
+              'red-icon': form.controls['CVV'].invalid && form.controls['CVV'].touched
+            }
+            ">
+            </i>
+          </div>
+        </div>
+        <input type="password" formControlName="CVV" class="form-control" placeholder="CVV">
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <button class="btn btn-success btn-lg btn-block" type="submit" [disabled]="form.invalid"><i class="fas fa-database"></i> Submit</button>
+  </div>
+</form>
