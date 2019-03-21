@@ -11,6 +11,7 @@ import { PaymentDetailService } from 'src/app/shared/payment-detail.service';
 export class PaymentDetailComponent implements OnInit {
 
   form: FormGroup;
+  pMId: number;
   cardOwnerName: string;
   cardNumber: string;
   expirationDate: string;
@@ -19,20 +20,20 @@ export class PaymentDetailComponent implements OnInit {
   constructor(private service: PaymentDetailService) { }
 
   ngOnInit() {
-    this.form = new FormGroup({
-      PMId: new FormControl(0, Validators.required),
-      CardOwnerName: new FormControl('', Validators.required),
-      CardNumber: new FormControl('', [Validators.required, Validators.minLength(16), Validators.maxLength(16)]),
-      ExpirationDate: new FormControl('', [Validators.required, Validators.minLength(5), Validators.maxLength(5)]),
-      CVV: new FormControl('', [Validators.required, Validators.minLength(3), Validators.maxLength(3)])
-    });
+    this.form.reset();
 
-    //this.form.get('amountValue').setValue(1);
+    this.form = new FormGroup({
+      pMId: new FormControl(0, Validators.required),
+      cardOwnerName: new FormControl('', Validators.required),
+      cardNumber: new FormControl('', [Validators.required, Validators.minLength(16), Validators.maxLength(16)]),
+      expirationDate: new FormControl('', [Validators.required, Validators.minLength(5), Validators.maxLength(5)]),
+      cVV: new FormControl('', [Validators.required, Validators.minLength(3), Validators.maxLength(3)])
+    });
 
   }
 
   submitForm(): void {
-    console.log(this.form);
+    const {pMId, cardOwnerName, cardNumber, expirationDate, cVV} = this.form.value;
   }
 
 }
