@@ -11,7 +11,7 @@ namespace WebApi.Models
 
         [Required]
         [Column(TypeName = "nvarchar(100)")]
-        public string CardOwneName { get; set; }
+        public string CardOwnerName { get; set; }
 
         [Required]
         [Column(TypeName = "varchar(16)")]

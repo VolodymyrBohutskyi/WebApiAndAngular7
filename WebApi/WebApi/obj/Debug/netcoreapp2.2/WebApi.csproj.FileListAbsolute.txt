@@ -26,3 +26,17 @@ d:\Angular\projectWebApi\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyIn
 d:\Angular\projectWebApi\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorTargetAssemblyInfo.cache
 d:\Angular\projectWebApi\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.dll
 d:\Angular\projectWebApi\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.pdb
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.deps.json
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.json
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.runtimeconfig.dev.json
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.dll
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\bin\Debug\netcoreapp2.2\WebApi.pdb
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.csprojAssemblyReference.cache
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.csproj.CoreCompileInputs.cache
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cache
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorAssemblyInfo.cs
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfoInputs.cache
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.AssemblyInfo.cs
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.RazorTargetAssemblyInfo.cache
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.dll
+D:\Angular\projectWebApi\WebApiAndAngular7\WebApi\WebApi\obj\Debug\netcoreapp2.2\WebApi.pdb

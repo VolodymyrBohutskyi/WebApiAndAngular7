@@ -1,7 +1,10 @@
 export class PaymentDetail {
-  PMId: number;
-  CardOwnerName: string;
-  CardNumber: string;
-  ExpirationDate: string;
-  CVV: string;
+
+  constructor(
+    public PMId: number,
+    public CardOwnerName: string,
+    public  CardNumber: string,
+    public ExpirationDate: string,
+    public CVV: string) {}
+
 }
